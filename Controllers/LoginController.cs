@@ -7,7 +7,7 @@ using DotnetCoreServer.Models;
 
 namespace DotnetCoreServer.Controllers
 {
-    [Route("[controller]/[action]")]
+    [Route("[controller]/[action]")]    //  http://localhost:5000/login/Facebook controller : login, action : Facebook
     public class LoginController : Controller
     {
 
